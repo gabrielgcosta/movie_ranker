@@ -1,4 +1,4 @@
-package com.gabrielcosta.movie_ranker.modules.auth.controllers;
+package com.gabrielcosta.movie_ranker.modules.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.gabrielcosta.movie_ranker.infra.security.TokenService;
-import com.gabrielcosta.movie_ranker.modules.auth.dto.AuthDTO;
-import com.gabrielcosta.movie_ranker.modules.auth.dto.LoginResponseDTO;
-import com.gabrielcosta.movie_ranker.modules.auth.dto.RegisterDTO;
-import com.gabrielcosta.movie_ranker.modules.auth.entities.UsersEntity;
-import com.gabrielcosta.movie_ranker.modules.auth.repositories.UserRepository;
+import com.gabrielcosta.movie_ranker.modules.dto.AuthDTO;
+import com.gabrielcosta.movie_ranker.modules.dto.LoginResponseDTO;
+import com.gabrielcosta.movie_ranker.modules.dto.RegisterDTO;
+import com.gabrielcosta.movie_ranker.modules.entities.UsersEntity;
+import com.gabrielcosta.movie_ranker.modules.repositories.UserRepository;
 
 import jakarta.validation.Valid;
 

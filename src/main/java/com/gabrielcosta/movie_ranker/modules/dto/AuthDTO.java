@@ -1,4 +1,4 @@
-package com.gabrielcosta.movie_ranker.modules.auth.dto;
+package com.gabrielcosta.movie_ranker.modules.dto;
 
 public record AuthDTO(String login, String password) {
     

@@ -1,4 +1,4 @@
-package com.gabrielcosta.movie_ranker.modules.auth.entities;
+package com.gabrielcosta.movie_ranker.modules.entities;
 
 import java.util.Collection;
 import java.util.List;
